@@ -1,0 +1,67 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "resource1",
+      "path": "spreadsheet.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Name_of_Monarch",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Year_of_Birth",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Year_of_Death",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Instated_on_Throne",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Number_of_Years_on_Throne",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Years_Alive",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      },
+      "title": "spreadsheet.csv",
+      "format": "csv"
+    }
+  ],
+  "keywords": [
+    "statistics",
+    "danish monarchy"
+  ],
+  "name": "monarchs_spreadsheet",
+  "title": "Monarchs spreadsheet",
+  "description": "A spreadsheet containing data on the names of the danish monarchs, the year they were born, the year they died, they year they were instated on the throne, the number of years they were on the throne and the number of years they were alive. ",
+  "version": "1.0.0.",
+  "contributors": [
+    {
+      "title": "Kristine Lenda",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
+}
