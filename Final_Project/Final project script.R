@@ -12,6 +12,8 @@ library(tidyverse)
 library(readxl)
 library(janitor)
 
+#Data inserted into spreadsheet is from https://danmarkshistorien.dk/leksikon-og-kilder/vis/materiale/kongeraekken/
+
 #I manually uploaded my spreadsheet "Monarchs_spreadsheet.xlsx" to RStudio through "Import Dataset" and "From Excel".
 dataset <- read_excel(NULL, range = "A1:F57", 
                       na = "NULL")
